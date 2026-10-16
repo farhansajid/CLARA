@@ -1,0 +1,39 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Exclude LaTeX and PDF files
+latex/
+*.pdf
+
+# Results and logs
+results/*.csv
+results/*.pkl
+results/*.log
+results/predictors.pkl
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
